@@ -1,0 +1,8 @@
+TODO: 
+- Kilépésgomb
+- Keresés kisbetűvel is
+- Enter-re Keresés
+- about oldal 
+- nem elérhető névre figyelmeztetés
+- kötőjel helyett egyéb szöveg
+- keresésnek stílus
