@@ -3,6 +3,7 @@ package dev.hakuna;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Storage {
@@ -24,7 +25,11 @@ public class Storage {
             sc.nextLine();
             while(sc.hasNextLine()) {
                 String line = sc.nextLine();
-                System.out.println(line);
+                String[] lineArray = line.split(":");
+                NameDict nameDict = new NameDict();
+                nameDict.setHuName(lineArray[0]);
+                nameDict.setItName(lineArray[1]);
+                nameDictList.add(nameDict);
             }
                 
         }
