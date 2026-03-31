@@ -5,7 +5,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.hakuna.MainController">
    <children>
       <Button layoutX="195.0" layoutY="153.0" mnemonicParsing="false" onAction="#onClickSearchBtn" prefHeight="47.0" prefWidth="211.0" text="Keresés">
@@ -23,5 +22,10 @@
             <Font size="39.0" />
          </font>
       </Label>
+      <Button layoutX="211.0" layoutY="302.0" mnemonicParsing="false" onAction="#onClickExitButton" prefHeight="33.0" prefWidth="178.0" text="Kilépés">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
    </children>
 </Pane>

@@ -1,5 +1,6 @@
 package dev.hakuna;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
@@ -17,6 +18,11 @@ public class MainController {
         System.out.println("Keresés...");
         App.setRoot("nameScene");
 
+    }
+
+    @FXML
+    void onClickExitButton(ActionEvent event) {
+        Platform.exit();
     }
 
 }

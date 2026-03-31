@@ -26,7 +26,7 @@ public class NameController {
         System.out.println(App.nameDictList.get(0).getHuName());
         String huName = huNameField.getText();
         for(NameDict nameDict : App.nameDictList) {
-            if(huName.equals(nameDict.getHuName())){
+            if(huName.equalsIgnoreCase(nameDict.getHuName())){
                 itNameField.setText(nameDict.getItName());
             }
         }

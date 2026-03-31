@@ -6,3 +6,7 @@ TODO:
 - nem elérhető névre figyelmeztetés
 - kötőjel helyett egyéb szöveg
 - keresésnek stílus
+- crud műveletek szavakhoz
+- adatbázis használat
+- ikon készítése
+- weboldal készítése
