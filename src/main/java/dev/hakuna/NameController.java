@@ -17,7 +17,6 @@ public class NameController {
 
     @FXML
     void initialize() {
-        System.out.println("Tölt...");
         Integer size = App.nameDictList.size();
         countNameLabel.setText(size.toString());
     }

@@ -2,15 +2,9 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
-
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.hakuna.AboutController">
    <children>
-      <Button layoutX="113.0" layoutY="115.0" mnemonicParsing="false" onAction="#onClickBackBtn" prefHeight="171.0" prefWidth="375.0" text="Vissza">
-         <font>
-            <Font size="87.0" />
-         </font>
-      </Button>
+      <Button layoutX="526.0" layoutY="354.0" mnemonicParsing="false" onAction="#onClickBackBtn" prefHeight="32.0" prefWidth="60.0" text="Vissza" />
    </children>
 </Pane>
