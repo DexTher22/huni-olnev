@@ -1,6 +1,7 @@
 package dev.hakuna;
 
 import javafx.application.Application;
+import javafx.application.HostServices;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -14,11 +15,13 @@ import java.util.ArrayList;
  */
 public class App extends Application {
 
+    public static HostServices hostServices;
     public static ArrayList<NameDict> nameDictList;
     private static Scene scene;
 
     @Override
     public void start(Stage stage) throws IOException {
+        hostServices = getHostServices();
         scene = new Scene(loadFXML("mainScene"), 640, 480);
         stage.setScene(scene);
         stage.show();
